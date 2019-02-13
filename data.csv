@@ -1,0 +1,31 @@
+label,esp,eng
+welcome,¡Bienvenido!,Welcome!
+dashboard,Panel,Dashboard
+none,Ninguno,None
+registerInfo,Información de registro,Registration information
+testsToApply,Pruebas por aplicar,Tests to apply
+testNotAppliedYet,Prueba sin aplicar,Tests not applied yet
+person,Persona,Person
+personalOptions,Opciones personales,Personal options
+personalRecord,Expediente personal,Personal file
+personalInfo,Datos personales,Personal information
+accessInfo,Datos de acceso,Login information
+testList,Listado de pruebas,Tests listing
+personTestResults,Resultados de pruebas aplicadas,Results of tests applied
+professionalInfo,Datos profesionales,Career information
+changeProfilePicture,Cambiar imagen de perfil,Change profile picture
+name,Nombre,Name
+firstSurname,Apellido paterno,Surname
+secondSurname,Apellido materno,Mother´s surname
+age,Edad,Age
+years,años,Years
+email,Correo electrónico,E-mail
+email.short,E-mail,E-mail
+repeatEmail,Confirmar correo electrónico,Confirm e-mail
+password,Contraseña,Password
+repeatPassword,Confirmar contraseña,Confirm password
+branchOffice,Sucursal,Branch office
+choose.branchOffice,Elige una sucursal,Choose a branch office
+personType,Tipo de persona,Type of person
+choose.personType,Elige un tipo de persona,Choose a type of person
+numericKey,Clave numérica,Numeric key
