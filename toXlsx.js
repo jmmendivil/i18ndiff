@@ -35,7 +35,19 @@ if (!ARGV.input) exit('Include --input parameter with path to local json file.')
 
 const FILE_INPUT = ARGV.input
 const SHEETNAME = ARGV.SHEETNAME || 'Sheet'
-const OUTPUT_NAME = ARGV.output || 'archivo'
+let OUTPUT_NAME
+
+// use same input filename for output
+if (!ARGV.output) {
+  let file = FILE_INPUT
+  if (file.includes('/')) {
+    fileArray = FILE_INPUT.split('/')
+    file = fileArray[fileArray.length - 1]
+  }
+  OUTPUT_NAME = file.substr(0, file.lastIndexOf('.'))
+} else {
+  OUTPUT_NAME = ARGV.output
+}
 
 // -- RUN {{{
 const jsonData = fs.readFileSync(FILE_INPUT, 'utf8')
