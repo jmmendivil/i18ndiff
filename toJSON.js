@@ -1,8 +1,9 @@
 /**
  * toJSON - Converts xls to json file
  *
- * Headers order expected:
+ * Headers order expected (names doesn't matter):
  * [ 'Etiqueta', 'Traducción Español', 'Traducción Inglés' ]
+ * 
  *
  * TODO:
  * - validations
